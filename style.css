@@ -1,6 +1,3 @@
-*{
-    box-sizing: border-box;
-}
 body {
     background: #10101B;
     height: 100vh;
@@ -66,7 +63,7 @@ width: 100%;
 width: 20%;
 background: #425062;
 color: #fff;
-padding: 20px 0;
+padding: 20px ;
 margin: 5px;
 display: inline-block;
 font-size: 25px;
@@ -95,6 +92,7 @@ color: #E0B612;
     margin-top: 20px;
     border-radius: 15px;
     padding: 5px 20px;
+
 }
 .notify-section{
     width: 35%;
@@ -103,4 +101,7 @@ color: #E0B612;
 .action-left {
     color: #FF3C5F;
     margin-top: 10px;
+} 
+#green ,#red{
+    display: none;
 }
